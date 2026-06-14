@@ -26,20 +26,20 @@ Aplikasi web sederhana untuk mencatat buku tamu sekolah. Tamu mengisi form (nama
 ### Form Input Tamu (`index.php`)
 
 <p align="center">
-  <img src="screenshot/form-desktop.png" alt="Form Input Tamu — tampilan desktop" width="720">
+  <img src="https://raw.githubusercontent.com/gheasyaumilr/buku-tamu/refs/heads/main/screenshot/formulir.png" alt="Form Input Tamu" width="720">
 </p>
 
+### Edit Data Tamu
+
 <p align="center">
-  <img src="screenshot/form-mobile.png" alt="Form Input Tamu — tampilan mobile" width="360">
+  <img src="https://raw.githubusercontent.com/gheasyaumilr/buku-tamu/refs/heads/main/screenshot/edit.png" alt="Edit Data Tamu" width="720">
 </p>
 
 ### Daftar Tamu (`daftar_tamu.php`)
 
 <p align="center">
-  <img src="screenshot/daftar-tamu-desktop.png" alt="Daftar Tamu — tampilan desktop" width="720">
+  <img src="https://raw.githubusercontent.com/gheasyaumilr/buku-tamu/refs/heads/main/screenshot/daftar-tamu.png" alt="Daftar Tamu" width="720">
 </p>
-
-> Simpan file screenshot ke folder `screenshot/` di root proyek. Nama file yang disarankan: `form-desktop.png`, `form-mobile.png`, `daftar-tamu-desktop.png`.
 
 ---
 
@@ -165,18 +165,3 @@ koneksi.php
 ```
 
 > 💡 Jika ingin screenshot tampil di README GitHub, pastikan baris `screenshot/` **tidak ada** (atau dikomentari) di `.gitignore`.
-
----
-
-## Tips Screenshot untuk README
-
-| Ukuran | Keterangan |
-|--------|-----------|
-| 800–1200 px lebar | Desktop |
-| 360–480 px lebar | Mobile |
-| Kompres ke < 500 KB | Agar repo tidak membengkak |
-
-Akses screenshot lokal via browser saat server berjalan:
-```
-http://localhost/buku-tamu/screenshot/<nama-file>.png
-```

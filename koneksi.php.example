@@ -1,0 +1,15 @@
+<?php
+// Copy this file to koneksi.php and fill in your local database credentials.
+// Keep koneksi.php out of version control (it's listed in .gitignore).
+
+$host = 'localhost';
+$user = 'root';
+$pass = '';
+$dbname = 'db_bukutamu';
+
+$koneksi = mysqli_connect($host, $user, $pass, $dbname);
+if (!$koneksi) {
+    die("Koneksi gagal: " . mysqli_connect_error());
+}
+
+?>
